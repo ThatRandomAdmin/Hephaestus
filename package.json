@@ -1,0 +1,11 @@
+{
+  "name": "hephaestus",
+  "version": "1.0.0",
+  "description": "Build and manage large scale 2d worlds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Showdowkin",
+  "license": "ISC"
+}
