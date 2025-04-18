@@ -2,10 +2,22 @@
   "name": "hephaestus",
   "version": "1.0.0",
   "description": "Build and manage large scale 2d worlds",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThatRandomAdmin/Hephaestus"
   },
   "author": "Showdowkin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.1.5"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
